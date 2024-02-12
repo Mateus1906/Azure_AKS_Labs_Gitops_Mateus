@@ -24,7 +24,7 @@ jobs:
           subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
 
       - name: 'Run Azure CLI commands'
-      run: |
+        run: |
           az account show
           az group list
           pwd 
