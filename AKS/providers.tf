@@ -24,7 +24,7 @@ terraform {
 		organization = "Mateus_GitOps"
 
 		workspaces {
-			name = "AKS-GitOps"
+			name = "AKS-GitOps-API-DRIVEN"
 		}
 	}
 }
